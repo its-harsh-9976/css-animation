@@ -1,0 +1,96 @@
+*{
+ margin: 0;
+ padding :0;
+ box-sizing: border-box;
+ font-family: gilroy;
+ color: white;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+    /* background-color: black; */
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+#nav{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   height: 60px;
+   padding: 0 30px;
+}
+#nav-part2{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+     
+}
+#nav h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+#main h1{
+    font-size: 150px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 150px;
+    /* background-color: crimson; */
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    margin-left: 10%;
+
+    
+} 
+#main h1:nth-child(2){
+    margin-top: 180px;
+}
+#main h1:nth-child(3){
+     text-align: center;
+}
+#main h1:nth-child(4){ 
+   text-align: center;
+}
+
+img{
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    top: 12%;
+    left: 40%;
+    border-radius: 20px;
+    
+}
+
+#img1{
+    rotate:25deg;
+}
+#img2{
+    rotate:15deg
+} 
+
+#last{
+text-transform:capitalize;
+font-family: 'Courier New', Courier, monospace;
+margin-top: 5%;
+display: flex;
+align-items: center;
+gap: 500px;
+}
+#last h2{
+    font-size: 20px;
+}
+ #last h2:nth-child(1){
+    padding-left: 35px;
+    
+    text-align: left;
+ }
+#last h2:nth-child(2){
+    
+    text-align:center;
+}
